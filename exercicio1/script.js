@@ -1,14 +1,19 @@
-/*const nome = null
+//Declare uma variável para armazenar um **nome**, sem atribuir um valor.
+const nome = null
+//Declare uma variável para armazenar uma **idade**, sem atribuir um valor.
 let idade = null
+//Imprima na tela o **tipo** dessas variáveis que acabou de criar, usando o comando `typeof`.
 console.log(typeof(nome, idade))
 
-Por não conter nenhuma resposta o tipo de variavel acaba sendo vazio*/ 
+//Depois, disso, atualize o código para **perguntar** ao usuário seu nome e sua idade, atribuindo esses dois valores às variáveis que acabou de criar.
+let nomePrompt = prompt('Qual o seu nome?')
+let idadePrompt = prompt('Qual a sua idade?')
 
-const nomePrompt = prompt ('Qual o seu nome?')
-let idade = prompt ('Qual a sua idade?')
-//console.log(typeof(nomePrompt, idade))
+//Novamente, imprima na tela o tipo dessas variáveis.
+console.log(typeof(nomePrompt))
+console.log(typeof(idadePrompt))
+//Para finalizar, imprima na tela a mensagem: "Olá `nome`,  você tem `idade` anos". Onde `nome` e `idade` são os valores que o usuário inseriu.
 
-// Agora que colocamos respostas e com isso valores, o tipo de variavel muda.
+console.log('Olá', nomePrompt, "você tem", idadePrompt, 'anos.')
 
-console.log('Olá', nomePrompt, "você tem", idade, 'anos.')
 
